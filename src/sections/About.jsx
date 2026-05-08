@@ -1,5 +1,5 @@
 import "./About.css";
-
+import image from "../assets/rtsframe.png"
 export default function About() {
   return (
     <section id="about" className="section about">
@@ -45,8 +45,7 @@ export default function About() {
           <div className="about-image-col">
             <div className="about-image-wrapper">
               <div className="about-image-placeholder">
-                <span className="about-placeholder-text">YOUR</span>
-                <span className="about-placeholder-text">PHOTO</span>
+               <img className="my_img" src={image} alt="" />
               </div>
               <div className="about-image-frame" />
             </div>

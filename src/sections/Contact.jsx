@@ -55,9 +55,9 @@ export default function Contact() {
 
             <div className="contact-socials">
               {[
-                { label: "GitHub", href: "https://github.com" },
-                { label: "LinkedIn", href: "https://linkedin.com" },
-                { label: "Twitter", href: "https://twitter.com" },
+                { label: "GitHub", href: "https://github.com/itsritesh02" },
+                { label: "LinkedIn", href: "https://www.linkedin.com/in/ritesh-kumar-3379ba399/" },
+                // { label: "Twitter", href: "https://twitter.com" },
               ].map((s) => (
                 <a key={s.label} href={s.href} className="contact-social-link"
                   target="_blank" rel="noreferrer">
