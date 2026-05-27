@@ -68,7 +68,7 @@ export default function Hero() {
           <p className="hero-bio">
             Full-stack developer based in India. I craft clean, performant, and
             accessible digital experiences — from backend APIs to pixel-perfect
-            frontends.
+            frontend.
           </p>
 
           <div className="hero-ctas">
